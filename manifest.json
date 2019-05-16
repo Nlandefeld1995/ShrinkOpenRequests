@@ -1,0 +1,56 @@
+{
+    "name": "Shrink Request Open",
+    "version": "1.0.0",
+    "size": {
+        "width": 3,
+        "height": 3
+    },
+    "mapping": [{
+            "alias": "complete",
+            "dataSetId": "62b1de9d-574c-459f-8b85-4b1ba4e65de3",
+            "fields": [{
+                    "alias": "name",
+                    "columnName": "Name"
+                },
+                {
+                    "alias": "start",
+                    "columnName": "StartDate"
+                },
+                {
+                    "alias": "end",
+                    "columnName": "EndDate"
+                },
+                {
+                    "alias": "reason",
+                    "columnName": "Reason"
+                },
+                {
+                    "alias": "status",
+                    "columnName": "Approval"
+                },
+                {
+                    "alias": "comment",
+                    "columnName": "Comments"
+                }
+            ]
+        },
+        {
+            "alias": "war",
+            "dataSetId": "65f6f581-b72a-407e-9f3c-5b3bd490cca5",
+            "fields": [{
+                    "alias": "name",
+                    "columnName": "Name"
+                },
+                {
+                    "alias": "wdate",
+                    "columnName": "WarDate"
+                },
+                {
+                    "alias": "pdate",
+                    "columnName": "PhoneDate"
+                }
+            ]
+        }
+    ],
+    "id": "{}"
+}

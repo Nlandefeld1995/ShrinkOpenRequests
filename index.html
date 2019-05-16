@@ -1,0 +1,51 @@
+<html>
+<title>Open Shrink Requests</title>
+<script src="https://www.gstatic.com/firebasejs/5.4.2/firebase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-firestore.js"></script>
+<script>
+    // Initialize Firebase
+    var config = {
+        apiKey: "",
+        authDomain: "{}.firebaseapp.com",
+        databaseURL: "https://{}.firebaseio.com",
+        projectId: "{}",
+        storageBucket: "{}.appspot.com",
+        messagingSenderId: "{}"
+    };
+    firebase.initializeApp(config);
+</script>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="domo.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="{}" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</head>
+
+<body>
+    <h1>My Shrink Requests</h1>
+    <div id="main">
+        <div id="c_names">
+            <table>
+                <thead>
+                    <th class="t1">Name</th>
+                    <th class="t2">Reason</th>
+                    <th class="t3">Comments</th>
+                    <th class="t4">Start</th>
+                    <th class="t5">End</th>
+                    <th class="t6">Status</th>
+                </thead>
+            </table>
+        </div>
+        <div id="t_values">
+            <table id="requests">
+
+            </table>
+        </div>
+
+    </div>
+</body>
+
+</html>
